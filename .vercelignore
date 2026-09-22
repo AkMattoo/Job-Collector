@@ -1,0 +1,8 @@
+# Vercel only needs the website (public/) and the chat functions (api/).
+# Hiding the Python collector stops Vercel from mistaking this for a Python app.
+collector/
+tests/
+data/
+requirements.txt
+requirements-dev.txt
+profile.md
